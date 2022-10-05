@@ -1,0 +1,73 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+  max-width:100%;
+}
+.about{
+  background-image: url("https://wallpaperaccess.com/full/1658342.jpg");
+  text-align: center;
+  margin:50px 400px 50px 400px;
+  padding: 20px 20px 150px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width:100%;
+}
+.about1{
+  background-image: url("https://wallpaperaccess.com/full/1690382.jpg");
+  text-align: center;
+  margin:50px 400px 50px 400px;
+  padding: 20px 20px 150px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width:100%;
+}
+.about2{
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700331989.jpg");
+  text-align: center;
+  margin:50px 400px 50px 400px;
+  padding: 20px 20px 150px 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width:100%;
+}
+.container-fluid{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 70px;
+}
+.copyright{
+  font-size: 14px;
+  margin-top:80px;
+  }
+h1,h2,h3,p{
+color: #fff;
+}
+a{
+  margin-right: 30px;
+  margin-left: 30px;
+  color: #fff;
+}
+@media screen and (max-width: 800px) {
+  .about, .about1, .about2, .row {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    padding-left: 0px;
+  }
+  .container-fluid, .copyright{
+    width:100%;
+    padding-left: 0px;
+  }
+  h1,h2,h3,p,a{
+    width:100%;
+  }
+}
+.projects{
+  color: #7895B2;
+  font-size: 30px;
+}
+li{
+  display: inline;
+  color: #fff;
+  padding: 20px;
+}
